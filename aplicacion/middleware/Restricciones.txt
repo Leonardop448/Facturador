@@ -1,0 +1,18 @@
+Solo requiere sesion
+
+<?php require_once BASE_PATH . '/aplicacion/middleware/verificar_sesion.php'; ?>
+
+
+
+<?php
+require_once BASE_PATH . '/aplicacion/middleware/verificar_rol.php';
+verificarNivelAcceso(1); // Solo SuperU ?>
+
+<?php
+require_once BASE_PATH . '/aplicacion/middleware/verificar_rol.php';
+verificarNivelAcceso(2); // Solo SuperU, cliente, admin ?>
+
+
+<?php
+require_once BASE_PATH . '/aplicacion/middleware/verificar_rol.php';
+verificarNivelAcceso(3); // SuperU cliente admin vendedor ?>

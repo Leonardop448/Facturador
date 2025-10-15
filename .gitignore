@@ -1,0 +1,4 @@
+# Archivos de credenciales o claves
+facturador/configuracion/BaseDatos.php
+facturador/configuracion/Correo.php
+facturador/configuracion/correo.php

@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "aplicacion/",
+      "App\\configuracion\\": "configuracion/",
+      "App\\nucleo\\": "nucleo/"
+    }
+  },
+  "require": {
+    "phpmailer/phpmailer": "^6.9",
+    "dompdf/dompdf": "^3.1"
+  }
+}
