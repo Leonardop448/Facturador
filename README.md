@@ -1,3 +1,68 @@
+# 🧾 Sistema de Facturación Electrónica Web - FacCil 
+
+Una solución web **completa y adaptable** diseñada para optimizar la gestión de facturación electrónica en pequeñas y medianas empresas (PyMEs). Esta plataforma integra todos los módulos esenciales para el control administrativo y contable, ofreciendo una interfaz intuitiva y adaptable a cualquier dispositivo.
+
+
+---
+
+## ✨ Características Principales
+
+* **Facturación Electrónica:** Generación y gestión eficiente de documentos fiscales/electrónicos conforme a los estándares.
+* **Gestión de Clientes:** Módulo completo para el registro, edición y seguimiento del historial de transacciones de cada cliente.
+* **Gestión de Productos y Servicios:** Administración de precios, descripciones, y categorías de los ítems a facturar.
+* **Control de Inventario:** Seguimiento en tiempo real del stock de productos con alertas de bajo inventario.
+* **Gestión de Compras y Proveedores:** Registro de proveedores, gestión de órdenes de compra y control de cuentas por pagar.
+* **Generación de Reportes:** Módulo de inteligencia de negocios para crear reportes detallados (ventas, compras, inventario, impuestos, etc.).
+* **Interfaz Intuitiva y Responsive:** Diseño optimizado para una experiencia de usuario fluida en dispositivos de escritorio, tabletas y móviles.
+
+---
+
+## 🚀 Empezando
+
+Sigue estos pasos para obtener una copia operativa del proyecto en tu máquina local para desarrollo y pruebas.
+
+### Prerrequisitos
+
+Necesitas un entorno de servidor que soporte **PHP** y **MySQL**. Las opciones más comunes son:
+
+* **XAMPP / MAMP / WAMP** (Solución de entorno local todo en uno).
+* Un servidor web como **Apache** o **Nginx**.
+* **PHP** (versión recomendada: 7.4 o superior).
+* **MySQL** (o MariaDB).
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+Este proyecto fue **construido desde cero** utilizando el *stack* de desarrollo clásico y robusto:
+
+* **Backend (Lógica de Servidor): PHP 🐘**
+    * Maneja la autenticación, la gestión de documentos fiscales, el control de inventario y la generación de reportes complejos.
+* **Frontend (Experiencia del Usuario): JavaScript, HTML & CSS 🌐**
+    * Se utiliza **JavaScript** para la interactividad, validaciones en tiempo real y la optimización de la interfaz *responsive*.
+* **Base de Datos:** **MySQL** 🗄️
+    * Almacenamiento y gestión de datos transaccionales críticos (facturas, inventario, clientes y proveedores).
+
+---
+
+## 🤝 Contribuyendo
+
+¡Las contribuciones son bienvenidas! Sigue estos pasos:
+
+1.  Haz un **Fork** del proyecto.
+2.  Crea tu **Feature Branch** (`git checkout -b feature/nueva-funcionalidad-contable`).
+3.  Comitéa tus cambios (`git commit -m 'feat: Añadir módulo de impuestos'`).
+4.  Sube al **Branch** (`git push origin feature/nueva-funcionalidad-contable`).
+5.  Abre un **Pull Request** explicando detalladamente tu cambio.
+
+---
+
+## 📄 Licencia
+
+Distribuido bajo Licencia. Consulta el archivo `LICENSE` para más información.
+
+---
+
 <h1 align="center">Hi 👋, I'm Leonardo Pulgarin</h1>
 <h3 align="center">A passionate FullStack developer from Colombia</h3>
 
