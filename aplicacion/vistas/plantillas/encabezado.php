@@ -75,7 +75,7 @@ if (isset($_SESSION['usuario'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Delius&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="<?= RUTA_URL ?>/imagenes/icono.png">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4VFG5S4BL7"></script>
+
     <script>
         // Opcional: Si quieres aplicar el modo oscuro inmediatamente desde localStorage
         if (localStorage.getItem('modo_oscuro') === '1') {
@@ -116,7 +116,8 @@ if (isset($_SESSION['usuario'])) {
         }
     </style>
 
-
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X5CWZRDPMX"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -124,8 +125,10 @@ if (isset($_SESSION['usuario'])) {
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-        gtag('config', 'G-4VFG5S4BL7');
+
+        gtag('config', 'G-X5CWZRDPMX');
     </script>
+
 </head>
 
 <body class="<?= (!empty($_SESSION['usuario']['modo_oscuro']) && $_SESSION['usuario']['modo_oscuro'] == 1) ? 'modo-oscuro' : '' ?>">

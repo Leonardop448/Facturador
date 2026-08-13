@@ -1,5 +1,16 @@
 <?php include BASE_PATH . '/aplicacion/vistas/plantillas/encabezado.php'; ?>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X5CWZRDPMX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-X5CWZRDPMX');
+</script>
 <?php
 
 use App\modelos\UsuariosCliente;

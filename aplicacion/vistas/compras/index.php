@@ -4,6 +4,7 @@ require_once BASE_PATH . '/aplicacion/middleware/verificar_rol.php';
 verificarNivelAcceso(2);
 ?>
 
+
 <div class="container py-5">
     <div class="card shadow rounded-4">
         <div class="card-header text-white" style="background-color: #DC3545;">
