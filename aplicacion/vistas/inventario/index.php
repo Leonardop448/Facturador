@@ -82,10 +82,10 @@ verificarNivelAcceso(2);
                     </select>
 
                     <!-- Botones con el filtro aplicado -->
-                    <a href="<?= RUTA_URL ?>/inventario/imprimir?cliente_id=<?= urlencode($clienteSeleccionado) ?>" class="btn btn-secondary me-2" target="_blank">
+                    <a href="<?= RUTA_URL ?>/inventario/imprimir?cliente_id=<?= urlencode($clienteSeleccionado ?? '') ?>" class="btn btn-secondary me-2" target="_blank">
                         <i class="fas fa-print"></i> Imprimir
                     </a>
-                    <a href="<?= RUTA_URL ?>/inventario/exportarPdf?cliente_id=<?= urlencode($clienteSeleccionado) ?>" class="btn btn-danger">
+                    <a href="<?= RUTA_URL ?>/inventario/exportarPdf?cliente_id=<?= urlencode($clienteSeleccionado ?? '') ?>" class="btn btn-danger">
                         <i class="fas fa-file-pdf"></i>PDF
                     </a>
                 </form>
