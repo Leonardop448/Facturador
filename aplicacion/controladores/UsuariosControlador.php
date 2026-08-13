@@ -202,7 +202,7 @@ class UsuariosControlador extends Controlador
     public function cerrarSesion()
     {
         Sesion::iniciarSesionLarga();
-        session_destroy();
+        unset($_SESSION['usuario']);
         echo "<script>window.location = '" . RUTA_URL . "/inicio?mensaje=sesion_cerrada';</script>";
     }
 

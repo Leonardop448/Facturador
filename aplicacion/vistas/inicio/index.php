@@ -1,5 +1,15 @@
 <?php include BASE_PATH . '/aplicacion/vistas/plantillas/encabezado.php';
+// --- AGREGA ESTE BLOQUE AQUÍ ---
+if (isset($mensaje) && $mensaje === 'sesion_cerrada'): ?>
+  <script>
+    alert('Has cerrado sesión correctamente.');
+    // Opcional: limpiar el mensaje de la URL para que no vuelva a salir al recargar
+    window.history.replaceState({}, document.title, window.location.pathname);
+  </script>
+<?php endif;
+// --------------------------------
 ?>
+
 <style>
   body {
     background: url('<?= RUTA_URL ?>/imagenes/fondoindex.jpeg') no-repeat center center fixed;
