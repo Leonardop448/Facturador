@@ -73,7 +73,7 @@ Distribuido bajo Licencia. Consulta el archivo `LICENSE` para más información.
 <!-- Trofeos de GitHub corregidos -->
 <p align="left">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=leonardop448&theme=radical&no-bg=true" alt="leonardop448 trofeos" />
+    <img src="https://trophygithubreadmelang.cybee.dpdns.org/?username=leonardop448" alt="leonardop448 trofeos" />
   </a>
 </p>
 
@@ -104,9 +104,4 @@ Distribuido bajo Licencia. Consulta el archivo `LICENSE` para más información.
     <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/></a>
     <a href="https://www.photoshop.com/es" target="_blank" rel="noreferrer"><img src="https://www.adobe.com/cc-shared/assets/img/product-icons/svg/photoshop-64.svg" alt="photoshop" width="40" height="40"/></a>
     <a href="https://www.adobe.com/co/creativecloud/pro.html" target="_blank" rel="noreferrer"><img src="https://www.adobe.com/cc-shared/assets/img/product-icons/svg/premiere-pro-64.svg" alt="premiere" width="40" height="40"/></a>
-</p>
-
-<!-- Estadísticas de GitHub -->
-<p align="left">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=leonardop448&show_icons=true&locale=en" alt="leonardop448 stats" />
 </p>
