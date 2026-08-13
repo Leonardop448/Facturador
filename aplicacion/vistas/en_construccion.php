@@ -25,7 +25,7 @@
             <i class="bi bi-tools"></i>
         </div>
         <h1 class="fw-bold">¡Estamos trabajando en esto!</h1>
-        <p class="fs-4">El módulo de <strong><?= $modulo ?></strong> se encuentra actualmente en desarrollo o la estamos mejorando.</p>
+        <p class="fs-4">El módulo de <strong><?= $modulo ?? 'actual' ?></strong> se encuentra actualmente en desarrollo o la estamos mejorando.</p>
         <p class="text-muted">Estamos esforzándonos para brindarte la mejor herramienta. Vuelve pronto.</p>
 
         <div class="mt-4">

@@ -74,7 +74,7 @@ verificarNivelAcceso(2);
                     <label for="cliente_id" class="form-label me-2 mb-0">Filtrar por cliente:</label>
                     <select name="cliente_id" id="cliente_id" class="form-select me-2" onchange="document.getElementById('filtro-form').submit();">
                         <option value="">Todos</option>
-                        <?php foreach ($clientes as $cliente) : ?>
+                        <?php foreach ($clientes  as $cliente) : ?>
                             <option value="<?= $cliente['id'] ?>" <?= ($clienteSeleccionado == $cliente['id']) ? 'selected' : '' ?>>
                                 <?= htmlspecialchars($cliente['nombre']) ?>
                             </option>
